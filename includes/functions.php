@@ -49,7 +49,7 @@
 		$password = 'root';
 		$db = 'test';
 		$host = 'localhost';
-		$port = 8888;
+		$port = 3306;
 	
 		$connect = mysqli_init();
 		$success = mysqli_real_connect($connect, $host, $user, $password, $db, $port);	
